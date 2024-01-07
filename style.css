@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Merriweather', serif;
+}
+.banner{
+    background-image: url('images/banner-image.png');
+    background-repeat: no-repeat;
+    height:600px ;
+    width:1300px ;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+.title-one{
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+}
+.title-two{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px; /* 131.944% */
+}
+.holiday-deals{
+    height:700px ;
+    width:1300px ;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.holiday-deals>h1 {
+    color: #F00;
+    font-family: Inter;
+
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+}
+.holiday-deals>p{
+    color: #F00;
+    font-family: Inter;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;   
+}
+.holiday-deals>h2{
+    color: #070211;
+    font-family: Inter;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.holiday-deals>img{
+    width: 800px;
+    height: 500px;
+    margin-left: 250px;
+    
+}
+/* midnight party section style */
+.midnight-party{
+    background-image: url(images/vectorrr.png);
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    height: 600px;
+    margin-left: 100px;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content>h1{
+    color: #FFF;
+
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7.04px;
+}
+.content>p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    padding: 20px ;
+    padding-left: 110px;
+}
+.content>button{
+    border: none;
+    color: #FFF;
+    background-color: transparent;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: auto;
+    padding-left: 110px;
+    
+    
+}.img{
+    padding: 80px 100px 70px 0;
+}

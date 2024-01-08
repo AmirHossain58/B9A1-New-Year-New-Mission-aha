@@ -369,7 +369,7 @@ padding-bottom: 30px;
 .feedback{
     display: flex;
 }
-.feedback>textarea{
+.input-feedback{
     width: 500px;
     height: 70px;
     background: #FFF;
@@ -378,10 +378,10 @@ padding-bottom: 30px;
     border: none;
     position: relative;
     padding-left: 10px;
-    line-height: 5;
+    line-height: 5px;
 
 }
-.feedback>input{
+.subscribe-button{
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -395,7 +395,7 @@ padding-bottom: 30px;
 }
 /* footer section */
 footer{
-    width: 1600px;
+    width: 1500px;
     height: 600px;
     background: #070211;
     margin-top: 100px;

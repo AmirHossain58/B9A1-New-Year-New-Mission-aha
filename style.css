@@ -8,8 +8,10 @@ body{
 .banner{
     background-image: url('images/banner-image.png');
     background-repeat: no-repeat;
-    height:600px ;
-    width:1300px ;
+    height:100% ;
+    min-height:600px ;
+    width: 100%;
+    max-width:1300px ;
     border-radius: 10px;
     margin-left: 100px;
 }
@@ -29,8 +31,10 @@ body{
 }
 /* holiday-deals style */
 .holiday-deals{
-    height:800px ;
-    width:1300px ;
+    height:100% ;
+    min-height:600px ;
+    width: 100%;
+    max-width:1300px ;
     margin-left: 100px;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -69,10 +73,13 @@ body{
 /* midnight party section style */
 .midnight-party{
     background-image: url(images/vector.png);
+    background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
-    width: 1320px;
-    height: 600px;
+    height:100% ;
+    min-height:600px ;
+    width: 100%;
+    max-width:1300px ;
     margin-left: 100px;
 
 }
@@ -86,7 +93,6 @@ body{
 
 .content>h1{
     color: #FFF;
-
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
@@ -100,7 +106,8 @@ body{
     font-weight: 400;
     line-height: 30px; 
     padding: 20px ;
-    padding-left: 110px;
+    padding-left: 130px;
+    max-width: 700px;
 }
 .content>button{
     border: none;
@@ -123,8 +130,10 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1320px;
-    height: 500px;
+    height:100% ;
+    min-height:500px ;
+    width: 100%;
+    max-width:1300px ;
     margin-left: 100px;
     background-color: rgba(255, 0, 0, 0.05);
 
@@ -171,8 +180,10 @@ body{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    width: 1320px;
-    height: 500px;
+    height:100% ;
+    min-height:500px ;
+    width: 100%;
+    max-width:1300px ;
     margin-left: 100px;
     margin-top: 100px;
 }
@@ -200,9 +211,9 @@ body{
 .image{
 
     width:450px;
-height:450px;
-border: 15px solid #F00;
-border-radius: 60%;
+    height:450px;
+    border: 15px solid #F00;
+    border-radius: 60%;
 }
 .image>img{
     padding: 40px
@@ -220,23 +231,26 @@ border-radius: 60%;
 }
 .text-and-image>p{
     color: rgba(7, 2, 17, 0.60);
-
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px;
-padding-bottom: 30px;
+    width: 276px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 30px;
+    width: 280px;
 }
 /* holidays-sale-section  */
 .holidays-sale{
-    width: 1320px;
+    width: 100%;
+    max-width: 1320px;
     margin-top: 100px;
     margin-left: 100px;
 }
 .container-sale{
-    width: 1320px;
-    height: 650px;
+    height:100% ;
+    min-height:650px ;
+    width: 100%;
+    max-width:1300px ;
     background-image: url("images/rectangle-2.png") ,url(images/rectangle-1.png);
     background-repeat: no-repeat;
     display: flex;
@@ -292,7 +306,8 @@ padding-bottom: 30px;
 }
 /*  portfolio section  */
 .portfolio{
-    width: 1320px;
+    width: 100%;
+    max-width: 1300px;
     margin-left: 100px;
     margin-top: 100px;
 }
@@ -345,7 +360,10 @@ padding-bottom: 30px;
     justify-content: center;
     align-items: center;
     background: rgba(255, 0, 0, 0.05);
-    width: 1320px;
+    height:100% ;
+    min-height:600px ;
+    width: 100%;
+    max-width: 1320px;
     margin-left: 100px;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -356,6 +374,7 @@ padding-bottom: 30px;
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
+    padding-top: 40px;
 }
 .subscribe>p{
     color: rgba(7, 2, 17, 0.60);
@@ -365,13 +384,13 @@ padding-bottom: 30px;
     font-weight: 400;
     line-height: 32px;
     width: 900px;
+    padding-top: 40px;
 }
 .feedback{
     display: flex;
 }
 .input-feedback{
     width: 500px;
-    height: 70px;
     background: #FFF;
     margin-top: 50px;
     border-radius: 50px 0px 0px 50px;
@@ -395,8 +414,10 @@ padding-bottom: 30px;
 }
 /* footer section */
 footer{
-    width: 1500px;
-    height: 600px;
+    height:100% ;
+    min-height:600px ;
+    width: 100%;
+    max-width:1500px ;
     background: #070211;
     margin-top: 100px;
 
@@ -415,12 +436,13 @@ footer{
     color: #FFF;
     text-decoration: none;
 }
-.footer-images{
-
+.footer-images-container{
     display: flex;
     align-items: center;
     justify-content:center ;
-    margin: 50px;
+    padding: 50px;
+    border-top:1px solid rgba(255, 255, 255, 0.15); ;
+    border-bottom:1px solid rgba(255, 255, 255, 0.15); ;
 }
 .footer-images>img{
     padding: 20px;
@@ -429,6 +451,7 @@ footer{
     display: flex;
     justify-content: space-between;
     color: #FFF;
+    padding-top: 50px;
     padding-left:140px;
     padding-right: 140px;
 
